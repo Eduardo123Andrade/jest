@@ -5,7 +5,7 @@ const tsJestTransformCfg = createDefaultPreset().transform;
 /** @type {import("jest").Config} **/
 module.exports = {
   coverageProvider: 'v8',
-  collectCoverage: false,
+  collectCoverage: true,
   testEnvironment: "node",
   coverageDirectory: "coverage",
   transform: {
