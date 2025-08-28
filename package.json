@@ -7,8 +7,8 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon ts-node ./src/index.ts",
-    "test:watch": "jest --watch",
-    "test": "jest --coverageReporters=\"json-summary\""
+    "test:watch": "jest --watchAll --no-cache",
+    "test": "jest"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
