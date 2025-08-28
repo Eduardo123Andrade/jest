@@ -6,7 +6,7 @@
   "author": "Eduardo Andrade <eduardo.andrade15@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon ts-node ./src/index.ts",
+    "start": "nodemon --exec ts-node ./src/index.ts",
     "test:watch": "jest --watchAll --no-cache",
     "test": "jest"
   },
@@ -21,6 +21,6 @@
     "typescript": "^5.9.2"
   },
   "dependencies": {
-    "@prisma/client": "6.15.0"
+    "@prisma/client": "^6.15.0"
   }
 }
